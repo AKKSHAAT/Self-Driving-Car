@@ -9,7 +9,7 @@ car.draw(ctx);
 
 animate();
 
-function animate() {
+function animate() {                   
   car.update();
   canvas.height = window.innerHeight;  // also clears the animation
   car.draw(ctx);
